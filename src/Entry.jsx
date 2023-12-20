@@ -1,30 +1,9 @@
-// import { useState } from 'react'
-import './App.css';
+import Arrow from "./assets/ArrowRight.png";
+import Logo from "./assets/title.png";
 
-
-import Entry from './Entry';
-import Dashboard from './Dashboard';
-
-import {
-  createBrowserRouter,
-  RouterProvider,
-} from "react-router-dom";
-
-function App() {
-  // const [count, setCount] = useState(0)
-  const router = createBrowserRouter([
-    {
-      path: "/",
-      element: <Entry />,
-    },
-    {
-      path: "dashboard",
-      element: <Dashboard />
-    },
-  ]);
-
-      // <>
-      {/* <section className='welcome'>
+export default function Entry() {
+  return (
+    <section className='welcome'>
         <header className='header'>
           <img className='welcome__logo' src={Logo}></img>
             <nav>
@@ -49,12 +28,6 @@ function App() {
             <img src={Arrow}></img>
           </button>
         </div>
-      </section> */}
-    // </>
-
-  return (
-    <RouterProvider router={router} />
+      </section>
   )
 }
-
-export default App
