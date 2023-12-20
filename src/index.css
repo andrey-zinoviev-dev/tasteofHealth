@@ -14,9 +14,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* #root {
+#root {
   width: 100%;
-} */
+}
 
 a {
   font-weight: 500;
