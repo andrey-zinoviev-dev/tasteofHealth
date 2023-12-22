@@ -17,10 +17,10 @@ export default function Entry() {
               </ul>
             </nav>
         </header>
-        <div className='welcome__text'>
+        {/* <div className='welcome__text'>
           <p className='welcome__content-btns-p'>Taste of Health- это платформа, которая нацелена на полноценное изменение образа жизни и здоровья через подбор индивидуального плана питания и наблюдение за показателями здоровья пациента.</p>
           <p className='welcome__content-btns-p'>Вы меняете <span className='welcome__headline-span-black'>привычки питания и стиль жизни</span> к лучшему, чтобы повысить качество жизни и эффективнее достигать поставленных целей.</p>
-        </div>
+        </div> */}
         <div className='welcome__headline-wrapper'>
           <h1 className='welcome__headline'>Дневник питания Taste of <span className='welcome__headline-span'>Health</span></h1>
           <button className='welcome__headline-wrapper-btn'>

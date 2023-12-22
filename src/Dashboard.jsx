@@ -10,26 +10,32 @@ export default function Dashboard() {
           <h2>Панель контроля питания</h2>
           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis, iste pariatur et dolores iusto hic alias magnam nobis ratione illum, dignissimos quia quibusdam deleniti suscipit, dolore architecto laudantium officiis perferendis!</p>
         </div>
-        <img className="dashboard__head-wrapper-img" src={Diagram} />
+        <div>
+          <p>Тут график веса будет</p>
+        </div>
+        {/* <img className="dashboard__head-wrapper-img" src={Diagram} /> */}
       </div>
       <ul className="dashboard__ul">
         <li>
           <div>
-            <p>Выпито <span>0.5L</span>/3L</p>
+            <span>Вода сегодня</span>
+            <p><span>0.5L</span>/3L</p>
           </div>
           <div>
-            <p>Потреблено <span>1740 kcal</span>/2100 kcal</p>
+            <span>Каллории в день</span>
+            <p><span>1740</span>/2100 kcal</p>
           </div>
 
         </li>
         <li id="stats__bento">
           <div>
-            <p>Нужно еще поесть <span>2</span> раза</p>
+            <span>Разы приема пищи</span>
+            <p><span>2</span>раза</p>
           </div>
           <div>
-              <p>Белки в день- <span>30</span>гр</p>
-              <p>Жиры в день- <span>19</span>гр</p>
-              <p>Углеводы в день- <span>5</span>гр</p>
+              <p>Б в день- <span>30</span>гр</p>
+              <p>Ж в день- <span>19</span>гр</p>
+              <p>У в день- <span>5</span>гр</p>
           </div>
           <div>
             <p>Еще текст</p>
