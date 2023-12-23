@@ -1,7 +1,7 @@
 import React from "react";
 import Diagram from "./assets/diagram.jpg"
 import "./Dashboard.css";
-
+import Arrow from "./assets/ArrowRight.png";
 export default function Dashboard() {
   return (
     <section className="dashboard">
@@ -37,9 +37,10 @@ export default function Dashboard() {
               <p>Ж в день- <span>19</span>гр</p>
               <p>У в день- <span>5</span>гр</p>
           </div>
-          <div>
-            <p>Еще текст</p>
-          </div>
+          <button>
+            <p>Обновить показатели</p>
+            <img src={Arrow}></img>
+          </button>
         </li>
         {/* <li>
           <p>Нужно еще поесть <span>2</span> раза</p>
