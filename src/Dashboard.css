@@ -58,7 +58,7 @@
   /* aspect-ratio: 1/1; */
 }
 
-.dashboard__ul li div {
+.dashboard__ul-li-innerdiv {
   width: 100%;
   /* background-color: #cdcdcd; */
   background-color: #d9d7d8;
@@ -95,6 +95,27 @@
 .dashboard__ul li div p span {
   font-size: 32px;
   line-height: 1;
+  color: #ad78e3;
+}
+
+.dashboard__ul-li-progress {
+  width: 100%;
+  height: 6px;
+  background: grey;
+  border-radius: 4px;
+  /* position: ; */
+}
+
+.dashboard__ul-li-progress div {
+  height: 100%;
+  background: #7539b3;
+  width: 17px;
+  box-sizing: border-box;
+}
+
+#stats__calories {
+  background-color: black;
+  color: white;
 }
 
 #stats__bento {
